@@ -9,7 +9,7 @@ export function ServiceWorkerRegister() {
       src="/sw-register.js"
       strategy="afterInteractive"
       onLoad={() => {
-        console.log('Service Worker registration script loaded')
+        // console.log('Service Worker registration script loaded')    
       }}
     />
   )

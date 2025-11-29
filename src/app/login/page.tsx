@@ -17,7 +17,6 @@ export default function LoginPage() {
     // Simulate login delay
     await new Promise(resolve => setTimeout(resolve, 2000))
     setIsLoading(false)
-    console.log('Login:', { email, password })
   }
 
   return (
@@ -125,9 +124,9 @@ export default function LoginPage() {
 
           {/* Sign Up Link */}
           <p className="text-center text-gray-600 text-sm mt-6">
-            Don't have an account?{' '}
-            <Link href="/signup" className="text-primary font-semibold hover:underline">
-              Sign up free
+            {`Don't have an account?`}
+            <Link href="/signup" className="text-primary font-semibold hover:underline">    
+              {`Sign up free`}
             </Link>
           </p>
         </div>

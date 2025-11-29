@@ -18,7 +18,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
+    // console.log('Form submitted:', formData) // eslint-disable-next-line no-console
     // Handle form submission
   }
 
@@ -35,7 +35,7 @@ export default function ContactPage() {
         >
           <h1 className="section-title mb-4">Get in Touch</h1>
           <p className="section-subtitle text-gray-600">
-            Have a question? Want a demo? We're here to help!
+            {`Have a question? Want a demo? We're here to help!`}
           </p>
         </motion.div>
       </section>

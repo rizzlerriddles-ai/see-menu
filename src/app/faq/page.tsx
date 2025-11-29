@@ -20,7 +20,7 @@ export default function FAQPage() {
         >
           <h1 className="section-title mb-4">Frequently Asked Questions</h1>
           <p className="section-subtitle text-gray-600">
-            Have questions? We've got answers. Find everything you need to know about QR Menu Pro.
+            {`Have questions? We've got answers. Find everything you need to know about QR Menu Pro.`}
           </p>
         </motion.div>
       </section>
@@ -40,7 +40,7 @@ export default function FAQPage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="section-title mb-4">Didn't find your answer?</h2>
+          <h2 className="section-title mb-4">{`Didn't find your answer?`}</h2>
           <p className="text-gray-600 mb-8">
             Our support team is here to help. Reach out to us anytime.
           </p>

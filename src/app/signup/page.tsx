@@ -33,7 +33,6 @@ export default function SignupPage() {
     setIsLoading(true)
     await new Promise(resolve => setTimeout(resolve, 2000))
     setIsLoading(false)
-    console.log('Signup:', formData)
   }
 
   const containerVariants = {
