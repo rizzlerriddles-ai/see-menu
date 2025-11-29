@@ -1,0 +1,19 @@
+{
+  "name": "QR Menu Pro",
+  "version": "1.0.0",
+  "description": "Modern PWA for restaurant digital menus with QR codes and online ordering",
+  "keywords": [
+    "qr menu",
+    "digital menu",
+    "restaurant ordering",
+    "contactless menu",
+    "pwa",
+    "progressive web app"
+  ],
+  "author": "QR Menu Pro Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
